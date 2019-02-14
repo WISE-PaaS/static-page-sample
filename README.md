@@ -9,7 +9,7 @@
 
 ## Steps
 
-### Modify manifest.yml
+### 1. Modify manifest.yml
 
 This is a file that must exist inside the root folder of the application. You can customize your own configuration relatd to your app with this file. You can go ahead and push this sample code without editing the default values in it if you are just trying the deployment process.
 
@@ -26,29 +26,29 @@ applications:
 
 <br>
 
-### Staticfile
+### 2. Staticfile
 
 This is another file that has to reside in the project when you are deploying a static page to the WISE-PaaS. Just leave this file empty.
 
 <br>
 
-### CF Commands
+### 3. Deploy
 
 Open the command line tool that you prefer. Enter the root folder of your project and input the following commands.
 
-- Push your app
+**Push your app**
 
 ```
 $ cf push --no-start
 ```
 
-- Check the app list and make sure the app you just pushed is in the list.
+**Check the app list and make sure the app you just pushed is in the list**
 
 ```
 $ cf apps
 ```
 
-- Start the app
+**Start the app**
 
 ```
 $ cf start <AppName>
@@ -56,7 +56,7 @@ $ cf start <AppName>
 
 <br>
 
-### Check the Webpage
+### 4. Check the Webpage
 
 Input command ``$ cf apps`` and you will see the app list. The external URL for your app can be found in the ``urls`` column.
 
