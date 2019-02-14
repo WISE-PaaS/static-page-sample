@@ -1,6 +1,6 @@
 # static-page-sample
 
-This is sample code to demonstrate how to deploy a simple static page to the WISE-PaaS.
+**This is a sample code to demonstrate how to deploy a simple static page to the WISE-PaaS.**
 
 ## Screenshot
 ![static page](static/media/static-page-screenshot.png)
@@ -8,7 +8,6 @@ This is sample code to demonstrate how to deploy a simple static page to the WIS
 <br>
 
 ## Steps
----
 
 ### Modify manifest.yml
 
