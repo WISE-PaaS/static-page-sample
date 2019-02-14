@@ -1,0 +1,6 @@
+---
+applications:   
+- name: hello-wise-paas-static-1.0.0
+  memory: 64M
+  disk_quota: 256M
+  instances: 1
