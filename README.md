@@ -30,6 +30,8 @@ applications:
 
 This is another file that has to reside in the project when you are deploying a static page to the WISE-PaaS. Just leave this file empty.
 
+<br>
+
 ### CF Commands
 
 Open the command line tool that you prefer. Enter the root folder of your project and input the following commands.
