@@ -26,9 +26,14 @@ applications:
 
 <br>
 
-### 2. Staticfile
+### 2. Staticfile Buildpack
 
-This is another file that has to reside in the project when you are deploying a static page to the WISE-PaaS. Just leave this file empty.
+Add the following field to the manifest.yml.
+
+```yml
+  buildpack: Staticfile_v1-4-27
+```
+
 
 <br>
 
